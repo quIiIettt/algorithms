@@ -110,56 +110,68 @@ while n2 > 0:
     y2 += 1
     print("1", end="")
 print("+", end="")
+
 while n3 > 0:
     n3 -= 1
     y3 += 1
     print("1", end="")
 print("-", end="")
+
 while n4 > 0:
     n4 -= 1
     y4 += 1
     print("1", end="")
 print("")
+
 n1 = y1+y2
 n2 = y3
 n3 = y4
 y1 = 0
 y2 = 0
 y3 = 0
+
 while n1 > 0:
     n1 -= 1
     y1 += 1
     print("1", end="")
 print("+", end="")
+
 while n2 > 0:
     n2 -= 1
     y2 += 1
     print("1", end="")
 print("-", end="")
+
 while n3 > 0:
     n3 -= 1
     y3 += 1
     print("1", end="")
 print("")
+
 n1 = y1+y2
 n2 = y3
 y1 = 0
 y2 = 0
+
 while n1 > 0:
     n1 -= 1
     y1 += 1
     print("1", end="")
 print("-", end="")
+
 while n2 > 0:
     n2 -= 1
     y2 += 1
     print("1", end="")
 print("")
+
 n1 = y1-y2
 y1 = 0
+
 while n1 > 0:
     n1 -= 1
     y1 += 1
     print("1", end="")
 print("")
+
 print("Result: ", y1)

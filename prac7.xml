@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251"?>
+  <graph_data>
+    <graph id="1">
+      <title>Octahedron</title>
+      <points>
+        <point id="1" />
+        <point id="2" />
+        <point id="3" />
+        <point id="4" />
+        <point id="5" />
+        <point id="6" />
+        <point id="7" />
+        <point id="8" />
+        <point id="9" />
+        <point id="10" />
+        <point id="11" />
+      </points>
+      <lines>
+        <line id="1" from="1" to="2" weight="3" />
+        <line id="2" from="2" to="3" weight="12" />
+        <line id="3" from="3" to="4" weight="4" />
+        <line id="4" from="2" to="5" weight="19" />
+        <line id="5" from="4" to="5" weight="10" />
+        <line id="6" from="2" to="6" weight="12" />
+        <line id="7" from="5" to="6" weight="67" />
+        <line id="8" from="1" to="6" weight="65" />
+        <line id="9" from="1" to="8" weight="14" />
+        <line id="10" from="6" to="8" weight="11" />
+        <line id="11" from="6" to="9" weight="3" />
+        <line id="11" from="3" to="5" weight="3" />
+        <line id="12" from="6" to="7" weight="11" />
+        <line id="13" from="5" to="7" weight="35" />
+        <line id="14" from="4" to="7" weight="19" />
+        <line id="15" from="7" to="9" weight="12" />
+        <line id="16" from="8" to="9" weight="39" />
+      </lines>
+    </graph>
+  </graph_data>

@@ -21,7 +21,7 @@ D = [[0, 0, 0, 0, 0, 0, 0, 0, 0],
      [0, 0, 0, 0, 0, 0, 0, 0, 0],
      [0, 0, 0, 0, 0, 0, 0, 0, 0],
      [0, 0, 0, 0, 0, 0, 0, 0, 0]]
-tree = ElementTree.parse("lab7.xml")
+tree = ElementTree.parse("prac7.xml")
 root = tree.getroot()
 for element in root.iter("line"):
     line = element.attrib["from"]
